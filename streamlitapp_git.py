@@ -18,8 +18,12 @@ plotly
 
 # HOSTED CODE ON GITHUB STARTS FROM HERE
 
-df_try = pd.read_csv('table1.csv')
-result_df = pd.read_csv('table2.csv')
+
+url1 = 'https://raw.githubusercontent.com/BoulahiaAhmed/Streamlit_webapp/main/table1.csv?token=GHSAT0AAAAAACCR7AHNLM32X3LJNL72TVW4ZC6K32A'
+result_df = pd.read_csv(url1)
+
+url2 = 'https://raw.githubusercontent.com/BoulahiaAhmed/Streamlit_webapp/main/table2.csv?token=GHSAT0AAAAAACCR7AHNHREEOT3BNLSAF6E4ZC6K25Q'
+result_df = pd.read_csv(url2)
 
 
 #Streamlit App
