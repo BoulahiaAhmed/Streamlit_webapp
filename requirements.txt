@@ -2,5 +2,4 @@ streamlit
 psycopg2
 numpy
 pandas
-plotly
-time
+
