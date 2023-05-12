@@ -82,6 +82,14 @@ for i in range(100):
 '...and now we\'re done!'
 
 
+# Hide settings and "made with streamlit" label from users
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 
