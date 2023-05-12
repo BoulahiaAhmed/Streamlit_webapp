@@ -1,9 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import plotly.express as px
+#import plotly.express as px
 import psycopg2
-import time
 
 
 # add /?embedded=true for the iframe link to host streamlit Community Cloud apps on Personal website
@@ -93,8 +92,8 @@ st.table(result_df)
 
 # simple Graph
 
-fig = px.bar(result_df, x='phase', y='num_sponsor')
-st.plotly_chart(fig, use_container_width=True)
+#fig = px.bar(result_df, x='phase', y='num_sponsor')
+#st.plotly_chart(fig, use_container_width=True)
 
 
 
