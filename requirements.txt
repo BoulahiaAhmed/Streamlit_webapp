@@ -2,5 +2,5 @@ streamlit
 psycopg2
 numpy
 pandas
-plotly
+plotly_express
 time
